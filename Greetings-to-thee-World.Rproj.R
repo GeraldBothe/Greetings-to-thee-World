@@ -13,7 +13,9 @@ library(usethis)
 edit_r_environ()
 #insert token 12345... into the .Renviron file and save
 GITHUB_PAT = '12345...'
-use_github(protocol ='https', auth_token = Sys.getenv("GITHUB_PAT"))
-1
-1
+#to reset earlier things
 usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
+#to upload the current repository:
+use_github(protocol ='https', auth_token = Sys.getenv("GITHUB_PAT"))
+usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
+#now making another change. Checking whether the button PUSH automatically uses PAT
