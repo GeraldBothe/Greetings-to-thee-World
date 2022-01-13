@@ -21,4 +21,4 @@ usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
 #now making another change. Checking whether the button PUSH automatically uses PAT
 #it does not. have to enter PAT in two consecutive windows.
 #RStudio pull worked without entering anything. Displays line 22.
-@Second push worked without entering PW again.
+#Second push worked without entering PW again.
