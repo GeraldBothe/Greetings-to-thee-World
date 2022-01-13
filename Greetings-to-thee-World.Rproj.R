@@ -13,3 +13,7 @@ library(usethis)
 edit_r_environ()
 #insert token 12345... into the .Renviron file and save
 GITHUB_PAT = '12345...'
+use_github(protocol ='https', auth_token = Sys.getenv("GITHUB_PAT"))
+1
+1
+usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
