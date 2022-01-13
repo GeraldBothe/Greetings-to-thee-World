@@ -11,3 +11,5 @@ install.packages("usethis")
 library(usethis)
 ?use_github
 edit_r_environ()
+#insert token 12345... into the .Renviron file and save
+GITHUB_PAT = '12345...'
