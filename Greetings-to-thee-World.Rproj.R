@@ -19,3 +19,4 @@ usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
 use_github(protocol ='https', auth_token = Sys.getenv("GITHUB_PAT"))
 usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
 #now making another change. Checking whether the button PUSH automatically uses PAT
+#it does not. have to enter PAT in two consecutive windows.
